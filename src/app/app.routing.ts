@@ -14,11 +14,7 @@ const routes: Routes = [
     component: HelloComponent
   },
   {
-    path: 'app',
-    component: AppComponent
-  },
-  {
-    path: 'app2',
+    path: 'listHello',
     loadChildren: './list-hello/list-hello.module#ListHelloModule'
   }
 ];
